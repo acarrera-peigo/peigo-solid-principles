@@ -1,2 +1,2 @@
 # peigo-solid-principles
-Principios Solid
+Peigo Principios Solid 
