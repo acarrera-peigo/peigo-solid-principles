@@ -1,16 +1,16 @@
 package interface_segregation.bad;
 
-public abstract class SocialMedia {
+public interface SocialMedia {
 
-	//@support WhatsApp,Facebook,Instagram
-	public abstract void chatWithFriend();
+	//@support WhatsApp,Instagram
+	void chatWithFriend();
 
-	//@support Facebook,Instagram
-	public abstract void publishPost(Object post);
+	//@support Instagram
+	void publishPost(Object post);
 
-	//@support WhatsApp,Facebook,Instagram
-	public abstract void sendPhotosAndVideos();
+	//@support WhatsApp,Instagram
+	void sendPhotosAndVideos();
 
-	//@support WhatsApp,Facebook
-	public abstract void groupVideoCall(String... users);
+	//@support WhatsApp
+	void groupVideoCall(String... users);
 }

@@ -6,15 +6,7 @@ public class Whatsapp {
 
 	}
 
-	public void publishStatus(Object post) {
-
-	}
-
 	public void sendPhotosAndVideos() {
-
-	}
-
-	public void groupVideoCall(String... users) {
 
 	}
 
